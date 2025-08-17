@@ -1,0 +1,11 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Rasa folders
+models/
+.rasa/
+
+# Other temporary files
+_pycache_/
+*.pyc

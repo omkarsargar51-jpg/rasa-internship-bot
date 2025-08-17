@@ -1,0 +1,68 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - cya
+
+- intent: ask_stipend
+  examples: |
+    - How much is the stipend?
+    - what is the pay?
+    - tell me about the salary
+    - is the internship paid?
+
+- intent: ask_deadline
+  examples: |
+    - when is the last day to apply?
+    - what is the application deadline
+    - when do applications close?
+
+- intent: ask_eligibility
+  examples: |
+    - what are the eligibility criteria
+    - who can apply?
+    - am I eligible for this internship?
+    - requirements for applying
+
+- intent: ask_duration
+  examples: |
+    - how long is the internship?
+    - what is the duration?
+    - tell me about the internship period
+    - start and end date?
+
+- intent: ask_location
+  examples: |
+    - is this remote?
+    - do I need to come to the office?
+    - is there a work from home option?
+    - where is the office located?
+
+- intent: ask_ppo
+  examples: |
+    - can I get a full time job after this?
+    - is there a ppo or pre placement offer?
+    - what are the chances of a full time conversion?
+    - do you offer jobs to interns?
+
+- intent: ask_skills
+  examples: |
+    - what skills are required?
+    - do i need to know python?
+    - are there any prerequisites for applying?
+    - what technologies should I know
+
+
+

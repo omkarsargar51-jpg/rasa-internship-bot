@@ -1,0 +1,38 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_deadline
+  - action: utter_ask_deadline
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: stipend and eligibility path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_stipend
+  - action: utter_ask_stipend
+  - intent: ask_eligibility
+  - action: utter_ask_eligibility
+
+- story: location and skills path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_location
+  - action: utter_ask_location
+  - intent: ask_skills
+  - action: utter_ask_skills
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: eligibility and ppo path
+  steps:
+  - intent: ask_eligibility
+  - action: utter_ask_eligibility
+  - intent: ask_ppo
+  - action: utter_ask_ppo

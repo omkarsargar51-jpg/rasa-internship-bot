@@ -1,0 +1,49 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_stipend
+  - ask_deadline
+  - ask_eligibility
+  - ask_interview
+  - ask_duration
+  - ask_location
+  - ask_ppo
+  - ask_skills
+
+responses:
+  utter_greet:
+  - text: "Hey! I'm an internship bot. How can I help you?"
+
+  utter_goodbye:
+  - text: "Bye! Good luck with your application."
+
+  utter_ask_stipend:
+  - text: "The monthly stipend for all interns is $2000."
+
+  utter_ask_deadline:
+  - text: "The application deadline is October 31st."
+
+  utter_ask_eligibility:
+  - text: "To be eligible, you must be a final year undergraduate student with a GPA above 3.0."
+
+  utter_ask_interview:
+  - text: "There are 3 interview rounds"
+
+  utter_ask_duration:
+  - text: "The internship is a 3-month program, running from September 1st to November 30th."
+
+  utter_ask_location:
+  - text: "This is a hybrid internship. Interns are expected to work from our Navi Mumbai office 3 days a week."
+
+  utter_ask_ppo:
+  - text: "Yes, outstanding interns will be considered for a full-time offer (PPO) based on their performance during the internship."
+
+  utter_ask_skills:
+  - text: "We are looking for candidates with strong fundamentals in data structures and algorithms. Experience with Python is a plus!"
+ 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
